@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.container {
+  align-items: center;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 3rem;
+  border-radius: $border-radius;
+  box-shadow: 4px 4px 10px -2px rgba($color-primary-dark, 0.5);
+}

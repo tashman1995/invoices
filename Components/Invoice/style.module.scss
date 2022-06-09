@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+.invoice {
+    width: 100%;
+    display: grid;
+    gap: 0 .8rem;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: .6rem 0;
+    border-bottom: 1px solid $color-grey-lighter;
+
+    &--suspect {
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr max-content max-content ;
+    }
+}
