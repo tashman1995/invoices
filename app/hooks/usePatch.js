@@ -1,6 +1,12 @@
 import {useState} from 'react'
 import useFetch from './useFetch'
 
+/**
+ * 
+ * @param {*} id 
+ * @param {*} errorState 
+ * @returns 
+ */
 const usePatch = async (id, errorState) => {
     const [data, setData] = useState(undefined);
 
